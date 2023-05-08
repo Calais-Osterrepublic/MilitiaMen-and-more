@@ -3,7 +3,6 @@
 		"name": "Militia",
 		"uniques": [
 			"[+50]% to Flank Attack bonuses",
-			"Can build [Trench] improvements on tiles", 
 			"Can build [Fort] improvements on tiles", 
 			"[+100]% Strength when stacked with [Civilian]",
 			"Never appears as a Barbarian unit", 
@@ -14,4 +13,13 @@
 		],
 		"movementType": "Land"
 	},
+	{
+		"name": "Mercenary"
+		"uniques": [
+			//CANNOT BE BUILT, MUST BE BOUGHT
+			"Unbuildable",
+			"[-50]% maintenance costs",
+			"Gain [-50] [Gold] <upon defeating a [Wounded] unit>"
+		]
+	}
 ]
