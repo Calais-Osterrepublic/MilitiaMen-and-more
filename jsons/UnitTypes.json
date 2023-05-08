@@ -1,1 +1,17 @@
-
+[
+	{
+		"name": "Militia",
+		"uniques": [
+			"[+50]% to Flank Attack bonuses",
+			"Can build [Trench] improvements on tiles", 
+			"Can build [Fort] improvements on tiles", 
+			"[+100]% Strength when stacked with [Civilian]",
+			"Never appears as a Barbarian unit", 
+			"[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", 
+			"[-50]% Strength <when fighting in [Foreign Land] tiles>", 
+			"[-75]% maintenance costs", 
+			"[-2] Movement <in [Foreign Land] tiles>"
+		],
+		"movementType": "Land"
+  },
+]
