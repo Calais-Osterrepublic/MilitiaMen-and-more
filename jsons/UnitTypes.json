@@ -20,6 +20,7 @@
 			"Unbuildable",
 			"[-50]% maintenance costs",
 			"Gain [-50] [Gold] <upon defeating a [Wounded] unit>"
-		]
+		],
+		"movementType": "Land"
 	}
 ]
