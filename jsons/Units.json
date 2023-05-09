@@ -4,10 +4,58 @@
 		"unitType": "Militia",
 		"movement": 3,
 		"strength": 5,
-		"cost": 15,
-		"uniques": [],
-		"upgradesTo": "Citizen Militia",
-		"obsoleteTech": "Mathematics",
+		"cost": 10,
+		"uniques" : [
+			"[+200]% Strength decreasing with distance from the capital <after adopting [Tradition Complete]>",
+			"[+2] Movement <after adopting [Honor Complete]>"
+		],
+		"upgradesTo": "Light Militia",
+		"obsoleteTech": "Iron Working",
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Citizen Volunteers",
+		"unitType": "Militia",
+		"movement": 3,
+		"strength": 10,
+		"cost": 20,
+		"requiredTech": "Bronze Working",
+		"uniques" : ["Only available <after adopting [Liberty Complete]>"],
+		"upgradesTo": "Light Militia",
+		"obsoleteTech": "Iron Working",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Light Militia",
+		"unitType": "Militia",
+		"movement": 3,
+		"strength": 10,
+		"cost": 20,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Militiamen",
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Militiamen",
+		"unitType": "Militia",
+		"movement": 3,
+		"strength": 15,
+		"cost": 30,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Volunteers",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Volunteers",
+		"unitType": "Militia",
+		"movement": 3,
+		"strength": 15,
+		"cost": 30,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Light Militia",
+		//"obsoleteTech": "Gunpowder",
+		"attackSound": "shot"
+	}
 ]
